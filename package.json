@@ -1,0 +1,15 @@
+{
+  "name": "nodemoshjs",
+  "version": "1.0.0",
+  "description": "NodeJS with Mosh",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dang4",
+  "license": "MIT",
+  "dependencies": {
+    "lodash": "^4.17.19",
+    "mongoose": "^5.9.22"
+  }
+}
