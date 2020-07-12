@@ -70,9 +70,14 @@
  */
 
 const http = require('http');
-const server = http.createServer(function(res, req) {
+const server = http.createServer(function(req, res) {
     if(req.url === '/') {
         res.write('Hello NodeJS');
+        res.end();
+    }
+
+    if(req.url ==="api/course") {
+        res.write(JSON.stringify(1, 3, 2));
         res.end();
     }
 });
